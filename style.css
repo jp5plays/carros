@@ -12,8 +12,16 @@
     --transparent-white:rgba(255,255,255,0.75);
 
 }
+body{
+    padding: 5.5rem 1.5rem;
+}
+
 h2{
     font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: var(--gray);
+   
 }
 
 p{
@@ -23,4 +31,15 @@ p{
 a{
     
  font-family: 'Lexend Deca', sans-serif;
+}
+.sedans{
+    background: var(--orange);
+}
+
+.suvs{
+    background: var(--cyan);
+}
+
+.luxuosos{
+    background: var(--dark-cyan);
 }
